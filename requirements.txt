@@ -1,0 +1,10 @@
+fastapi
+langchain
+langchain_openai
+python-dotenv
+uvicorn
+sse_starlette
+langchain_community
+langchain_core
+faiss-cpu
+langchain_groq
