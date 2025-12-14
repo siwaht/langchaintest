@@ -13,7 +13,7 @@ app = FastAPI()
 # Create agent once at startup
 def get_weather(city: str) -> str:
     """Get weather for a given city."""
-    return f"It's always sunny in {city}!"
+    return f"It's always sunny in {city}! with a temperature of 70 degrees Fahrenheit"
 
 agent = create_agent(
     model=model,
